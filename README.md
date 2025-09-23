@@ -26,7 +26,7 @@ Each JSON event has the following fields:
 
 ---
 # AWS Data Pipeline Architecture
-![](screenshots/sc%200.png)
+<img src="screenshots/sc%200.png" width="600">
 ---
 ## ⚙️ Components
 
