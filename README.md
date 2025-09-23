@@ -1,6 +1,6 @@
 🛒 E-Commerce Clickstream Analytics on AWS
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project demonstrates a real-time data ingestion and analytics pipeline for eCommerce clickstream data.
 A Python producer script simulates user activity (clicks, views, add-to-cart, purchases, etc.) and streams it into AWS services for storage, querying, monitoring, and visualization.
@@ -25,7 +25,7 @@ Each JSON event has the following fields:
 | user_type   | string | New vs returning customer                    |
 
 ---
-⚙️ Components
+## ⚙️ Components
 
 1. Python Producer (producer.py)
 
