@@ -80,3 +80,36 @@ python producer.py
 This generates synthetic JSON events and pushes them to Kinesis Firehose → S3 Raw bucket.
 
 ---
+📊 Query with Athena
+
+Run SQL queries
+
+---
+📈 Visualize in QuickSight
+
+Connect QuickSight to Athena dataset.
+
+---
+📊 CloudWatch Monitoring
+
+In this project, CloudWatch is configured to monitor the health of the ingestion and analytics pipeline:
+
+Kinesis Firehose Metrics:
+
+Records successfully delivered to S3
+
+Failed delivery attempts
+
+S3 Buckets (Raw & Processed):
+
+Object creation logs (new files landing in raw and processed buckets)
+
+Athena Queries:
+
+Query execution times
+
+Query failures
+
+CloudWatch dashboards and alarms were set up to track these metrics, ensuring pipeline reliability.
+
+---
