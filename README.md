@@ -68,10 +68,13 @@ Each JSON event has the following fields:
 AWS account with access to: Kinesis, S3, Glue, Athena, QuickSight, CloudWatch
 
 Python 3.8+
+
 Install dependencies:
+
 pip install boto3 faker
 
 ▶️ Run the Producer
+
 python producer.py
 
 This generates synthetic JSON events and pushes them to Kinesis Firehose → S3 Raw bucket.
