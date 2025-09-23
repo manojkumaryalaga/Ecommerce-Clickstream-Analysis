@@ -106,19 +106,20 @@ Run SQL queries
 <img src="screenshots/sc%207.png" width="400">
 <img src="screenshots/sc%208.png" width="400">
 <img src="screenshots/sc%209.png" width="400">
-<img src="screenshots/sc%210.png" width="400">
-<img src="screenshots/sc%211.png" width="400">
-<img src="screenshots/sc%212.png" width="400">
-<img src="screenshots/se%213.png" width="400">
-<img src="screenshots/se%214.png" width="400">
-<img src="screenshots/se%215.png" width="400">
+<img src="screenshots/sc%2010.png" width="400">
+<img src="screenshots/sc%2011.png" width="400">
+<img src="screenshots/sc%2012.png" width="400">
+<img src="screenshots/se%2013.png" width="400">
+<img src="screenshots/se%2014.png" width="400">
+<img src="screenshots/se%2015.png" width="400">
 
 ---
 📈 Visualize in QuickSight
 
 Connect QuickSight to Athena dataset.
-<img src="screenshots/se%216.png" width="400">
-<img src="screenshots/se%217.png" width="400">
+
+<img src="screenshots/se%2016.png" width="400">
+<img src="screenshots/se%2017.png" width="400">
 
 ---
 📊 CloudWatch Monitoring
