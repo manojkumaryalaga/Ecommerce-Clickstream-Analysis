@@ -1,4 +1,4 @@
-🛒 E-Commerce Clickstream Analytics on AWS
+## 🛒 E-Commerce Clickstream Analytics on AWS
 
 ## 📌 Project Overview
 
