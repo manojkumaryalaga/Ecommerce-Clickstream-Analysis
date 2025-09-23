@@ -25,3 +25,36 @@ Each JSON event has the following fields:
 | user_type   | string | New vs returning customer                    |
 
 ---
+⚙️ Components
+
+1.Python Producer (producer.py)
+
+Simulates events and streams them to Kinesis Firehose.
+
+Produces ~1 event/sec (configurable).
+
+2.Amazon Kinesis Firehose
+
+Ingests events and delivers them to S3 Raw bucket.
+
+3.Amazon S3 (Raw & Processed Buckets)
+
+Raw JSON logs stored in one bucket.
+
+Processed data (query results, Parquet) stored in another bucket.
+
+4.AWS Glue Data Catalog
+
+Provides schema + metadata for querying with Athena.
+
+5.Amazon Athena
+
+Runs SQL queries on clickstream data.
+
+6.Amazon QuickSight
+
+Dashboards for funnel analysis, product performance, user engagement.
+
+7.Amazon CloudWatch
+
+Monitors ingestion pipeline health + Firehose delivery metrics.
