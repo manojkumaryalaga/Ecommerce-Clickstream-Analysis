@@ -22,4 +22,5 @@ referrer_url	string	Source of traffic
 location	string	User’s region/country
 browser	string	Browser used
 user_type	string	New vs returning customer
+
 ---
