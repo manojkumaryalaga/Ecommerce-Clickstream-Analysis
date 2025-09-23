@@ -92,24 +92,24 @@ Connect QuickSight to Athena dataset.
 ---
 📊 CloudWatch Monitoring
 
-In this project, CloudWatch is configured to monitor the health of the ingestion and analytics pipeline:
+   In this project, CloudWatch is configured to monitor the health of the ingestion and analytics pipeline:
 
 1. Kinesis Firehose Metrics:
 
-Records successfully delivered to S3
+   Records successfully delivered to S3
 
-Failed delivery attempts
+   Failed delivery attempts
 
 2. S3 Buckets (Raw & Processed):
 
-Object creation logs (new files landing in raw and processed buckets)
+   Object creation logs (new files landing in raw and processed buckets)
 
 3. Athena Queries:
 
-Query execution times
+   Query execution times
 
-Query failures
+   Query failures
 
-CloudWatch dashboards and alarms were set up to track these metrics, ensuring pipeline reliability.
+   CloudWatch dashboards and alarms were set up to track these metrics, ensuring pipeline reliability.
 
 ---
