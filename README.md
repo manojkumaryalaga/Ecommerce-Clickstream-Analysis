@@ -25,6 +25,9 @@ Each JSON event has the following fields:
 | user_type   | string | New vs returning customer                    |
 
 ---
+# AWS Data Pipeline Architecture
+
+---
 ## ⚙️ Components
 
 1. Python Producer (producer.py)
