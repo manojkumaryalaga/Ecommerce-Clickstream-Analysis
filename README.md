@@ -29,7 +29,7 @@ Each JSON event has the following fields:
 
 1. Python Producer (producer.py)
 
-Simulates events and streams them to Kinesis Firehose.
+   Simulates events and streams them to Kinesis Firehose.
 
 Produces ~1 event/sec (configurable).
 
