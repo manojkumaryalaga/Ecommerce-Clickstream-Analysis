@@ -1,0 +1,2 @@
+mkdir screenshots
+echo "dummy file" > screenshots/dummy.txt
