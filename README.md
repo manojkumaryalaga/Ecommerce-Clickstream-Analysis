@@ -90,28 +90,35 @@ This generates synthetic JSON events and pushes them to Kinesis Firehose → S3 
 
 <img src="screenshots/sc%203.png" width="400">
 <img src="screenshots/sc%204.png" width="400">
+
+---
+
+### 🗂️ Create Metadata using Glue Catalog
+
+<img src="screenshots/sc%205.png" width="400">
+<img src="screenshots/sc%206.png" width="400">
+
 ---
 📊 Query with Athena
 
 Run SQL queries
-<img src="screenshots/sc%205.png" width="400">
-<img src="screenshots/sc%206.png" width="400">
+
 <img src="screenshots/sc%207.png" width="400">
 <img src="screenshots/sc%208.png" width="400">
 <img src="screenshots/sc%209.png" width="400">
 <img src="screenshots/sc%210.png" width="400">
 <img src="screenshots/sc%211.png" width="400">
 <img src="screenshots/sc%212.png" width="400">
-<img src="screenshots/sc%213.png" width="400">
-<img src="screenshots/sc%214.png" width="400">
-<img src="screenshots/sc%215.png" width="400">
+<img src="screenshots/se%213.png" width="400">
+<img src="screenshots/se%214.png" width="400">
+<img src="screenshots/se%215.png" width="400">
 
 ---
 📈 Visualize in QuickSight
 
 Connect QuickSight to Athena dataset.
-<img src="screenshots/sc%216.png" width="400">
-<img src="screenshots/sc%217.png" width="400">
+<img src="screenshots/se%216.png" width="400">
+<img src="screenshots/se%217.png" width="400">
 
 ---
 📊 CloudWatch Monitoring
