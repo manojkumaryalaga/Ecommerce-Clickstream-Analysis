@@ -5,6 +5,7 @@
 This project demonstrates a real-time data ingestion and analytics pipeline for eCommerce clickstream data.
 A Python producer script simulates user activity (clicks, views, add-to-cart, purchases, etc.) and streams it into AWS services for storage, querying, monitoring, and visualization.
 
+---
 🗂️ Dataset (Clickstream Event Fields)
 
 Each JSON event has the following fields:
@@ -21,3 +22,4 @@ referrer_url	string	Source of traffic
 location	string	User’s region/country
 browser	string	Browser used
 user_type	string	New vs returning customer
+---
