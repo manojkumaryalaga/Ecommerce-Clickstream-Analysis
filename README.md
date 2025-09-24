@@ -122,6 +122,31 @@ Connect QuickSight to Athena dataset.
 <img src="screenshots/se%2017.png" width="400">
 
 ---
+📊 Insights
+
+The dashboards highlight key patterns in user behavior, device usage, and regional engagement:
+
+User behavior shows that most activity starts with views and clicks, but there is a clear drop between add-to-cart and purchases, pointing to potential cart abandonment issues.
+
+Device and browser trends indicate that mobile and tablet users show strong engagement, with browser preferences varying. Chrome and Safari dominate on desktop, while Edge and Firefox are more common on mobile. This suggests the need for a mobile-first optimization strategy with attention to cross-browser compatibility.
+
+Regional insights reveal high engagement in Mumbai and Berlin, with device preferences differing by region. Mumbai users lean towards tablets, while Tokyo and Berlin show higher mobile adoption.
+
+User types show that the majority of activity comes from returning users, reflecting loyalty. However, acquisition efforts should be strengthened to attract more new users.
+
+Traffic sources highlight strong inflow from Google and Twitter, followed by Facebook, showing that marketing campaigns on these platforms are driving meaningful traffic.
+
+Overall, the insights suggest focusing on:
+
+Improving the mobile and tablet experience, since those devices dominate engagement.
+
+Reducing cart abandonment, possibly through retargeting or better checkout design.
+
+Personalizing strategies by region and browser type for maximum impact.
+
+Balancing user acquisition with retention efforts to sustain long-term growth.
+
+---
 📊 CloudWatch Monitoring
 
    In this project, CloudWatch is configured to monitor the health of the ingestion and analytics pipeline:
